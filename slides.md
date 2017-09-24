@@ -20,11 +20,9 @@ SpeakerNote: Blah blah secret blah
 
 
 
-# Another Slide
+## Door control flow
 
-## Stuff
-
-Whatttt
+[![Door control flow diagram](./img/control-flow.svg)](./img/control-flow.svg)
 
 
 
