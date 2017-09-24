@@ -1,6 +1,6 @@
 # Automatic Chicken Door HOWTO
 
-## No it will not hurt a chicken
+## No, it will not hurt the chicken
 
 By [Adam Monsen](http://adammonsen.com), VP Engineering at [C-SATS, Inc.](https://csats.com)
 
