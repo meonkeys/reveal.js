@@ -12,7 +12,7 @@ Be present, ask questions, participate. I'll moderate.
 
 
 
-# TL;DR
+# TL;DR 🐔
 
 1. Plan project
 1. Buy stuff
@@ -123,9 +123,13 @@ SpeakerNote: Minus tax and shipping/handling. See last slide for links.
 
 
 
-1. Install raspian (Debian derivative)
-    * Perfect kid's desktop!
-1. Do a time-lapse video
+1. [Install Raspian OS](https://www.raspberrypi.org/downloads/raspbian/)
+    * codename: "stretch" - with desktop
+1. Try the camera: do a time-lapse video
+1. Try a project from the Starter Kit
+1. Use excessive emoji
+
+SpeakerNote: Add mouse + keyboard + monitor for a perfect kid desktop!
 
 
 
