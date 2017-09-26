@@ -1,3 +1,4 @@
+<!-- .element: data-background-image="./img/chicken-at-front-door.jpg" -->
 # Automatic Chicken Door HOWTO
 
 ## No, it will not hurt the chicken
@@ -7,9 +8,11 @@ By [Adam Monsen](http://adammonsen.com), VP Engineering at [C-SATS, Inc.](https:
 
 I'll recap everything for you later. We have a note-taker (right?).
 
-Be present, ask questions. I'll moderate.
+Be present, ask questions, participate. I'll moderate.
 
 
+
+# TL;DR
 
 1. Plan project
 1. Buy stuff
@@ -17,6 +20,38 @@ Be present, ask questions. I'll moderate.
 1. Prototype
 1. Install
 1. Celebrate
+
+
+
+# Chicken primer
+
+
+
+1. Never get wet
+1. Never expose to sunlight
+1. Never feed after midnight
+
+SpeakerNote: Sorry, wrong primer (see Gremlins - 1984 movie)
+
+
+
+# Real chicken primer
+
+
+
+<!-- .element: data-background-image="./img/how-chicken-works.svg" data-background-size="contain" data-background-color="lightgrey" -->
+
+SpeakerNote: They also eat bugs and rocks.
+
+
+
+1. Food → Chicken → Egg
+1. Not smart
+1. Must be locked in at night
+
+
+
+# Must be locked in at night
 
 
 
