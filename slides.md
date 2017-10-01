@@ -7,9 +7,20 @@ By [Adam Monsen](http://adammonsen.com), VP Engineering at [C-SATS, Inc.](https:
 
 
 
-## Note to self
-
 Use PgDn to advance through slides
+
+
+
+### Copyright and license
+
+©2017 - Adam Monsen
+
+<!-- cut & pasted license HTML from creativecommons.org. Easy, and includes
+"rel" attributes and metadata. -->
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Automatic Chicken Door HOWTO</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://adammonsen.com" property="cc:attributionName" rel="cc:attributionURL">Adam Monsen</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />For permissions beyond the scope of this license, contact <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:haircut@gmail.com" rel="cc:morePermissions">Adam</a>.
 
 
 
@@ -38,7 +49,7 @@ This is the story of...
 
 ## Meet Louise
 
-Our stealthy Welsummer
+Our stealthy [Ameraucana](https://en.wikipedia.org/wiki/Ameraucana)
 
 
 Louise wants to live and wants a new flock.
@@ -47,6 +58,28 @@ First she needs a safer home.
 
 One with an automatic door!
 
+
+
+What's our dream door have?
+
+
+<!-- .element: style="font-size: smaller;" -->
+
+* hardware interleave gravity lock mechanism
+* instant-read photoresistor poll door actuation trigger
+* photoresistor signal analog to digital conversion
+* worm gear 12V DC motor controlled via L9110 motor driver chip
+* dual hall-effect magnetic door position sensors
+* fallback door status mitigating magnetic sensor failure
+* night-vision wide-angle camera with motion-triggered video capture
+* C + bash + python polyglot control code with standardized output convention
+* offline operation with 2.4Ghz wifi for monitoring and maintenance
+
+
+Sure, why not.
+
+
+<!-- .element: data-background-video="./vid/door-open.webm" -->
 
 
 <!-- .element: data-background-image="./img/whole-coop.jpg" data-background-size="contain" -->
@@ -59,6 +92,9 @@ One with an automatic door!
 
 
 <!-- .element: data-background-image="./img/installed-rpi.jpg" data-background-size="contain" -->
+
+
+<!-- .element: data-background-video="./vid/settle-in.webm" data-background-size="contain" -->
 
 
 
@@ -135,6 +171,7 @@ _even in the summer when that sun comes up really early and the chickens really 
 Yeah no. Let's automate it!
 
 
+
 # TL;DR 🐔
 
 1. Plan project
@@ -152,7 +189,7 @@ Yeah no. Let's automate it!
 ## Parts summary
 
 1. Raspberry Pi, motor, sensors
-1. Wood, string, magnets
+1. Scrap wood, string, magnets
 
 
 ## Parts detail
@@ -166,7 +203,7 @@ Yeah no. Let's automate it!
 | Wires          | Amazon      | $15  |
 | 12V DC motor   | Amazon      | $14  |
 
-(continued below)
+(continued)
 
 
 | Item           | Source      | Cost |
@@ -238,29 +275,33 @@ SpeakerNote: Test leads: $6
 SpeakerNote: Regulated power supply: $6
 
 
+<!-- .element: data-background-image="./img/scrap-wood.jpg" data-background-size="contain" -->
+
+
 
 # Software
+
+
+⏰ Cron job runs every 10 minutes.
+
+1. Poll 📊 light level and 🚪 door state.
+1. 🌇 Door open & sun down? → `close door`.
+1. 🐣 Door closed & sun up? → `open door`.
 
 
 ## Door control flow
 
 [![Door control flow diagram](./img/control-flow.svg)](./img/control-flow.svg)
 
-
-## TODO: add Slack screenshot
-
-
-## TODO: more about software here
-
+* shaded rectangle: resting state
+* diamond: active state
+* ellipse: trigger to/from active state
+* "lock" enforces atomic opening/closing
 
 
-# FIXME - REDO THIS SECTION
+# Log
 
-
-<!-- .element: data-background-video="./vid/door-open.webm" -->
-
-
-<!-- .element: data-background-video="./vid/settle-in.webm" data-background-size="contain" -->
+![Log](./img/log.png)
 
 
 
@@ -276,7 +317,9 @@ SpeakerNote: Add mouse + keyboard + monitor for a perfect kid desktop!
 
 * Ask for help!
 * Try combining sensors / lights / camera
-* Use lots of emoji 🐔 🚦 😓 ⏰ 🏁 🐣 🌇 📡 📷 🚧
+* Use lots of emoji 🐔 📊 🚪 🚦 😓 ⏰ 🏁 🐣 🌇 📡 📷 🚧
+    * seriously
+    * one per unique log event
 
 
 
@@ -291,6 +334,7 @@ SpeakerNote: Add mouse + keyboard + monitor for a perfect kid desktop!
 
 * Use a 32GB flash card. I bricked a 64GB card.
 * Easy: camera. Plug & play!
+* Easy: loose tolerance for software (slow door, 10min between light checks).
 * Hard: door actuator: spindle, dealing with drag/resistance. Tight tolerance.
     * Temperature and humidity affect (wooden) door operation.
 * Hard: 12V DC motor. L9110 controller is tricky to wire. Software is complex. Wasted time on [PWM](https://learn.sparkfun.com/tutorials/pulse-width-modulation).
@@ -305,6 +349,12 @@ SpeakerNote: Add mouse + keyboard + monitor for a perfect kid desktop!
 * [Adeept source is on GitHub](https://github.com/adeept/)
 * Nocturnal predators may also hunt during the day, and there are other daytime predators too.
 
+(continued)
+
+
+* Saw the effect of the near-total eclipse.
+* Always MVP and iterate.
+
 
 
 ## Links to buy parts
@@ -316,7 +366,7 @@ SpeakerNote: Add mouse + keyboard + monitor for a perfect kid desktop!
 * [Solid hook-up wire kit - 6 colors dispenser box](https://www.amazon.com/gp/product/B008L3QJAS/)
 * [25rpm 12V DC worm gear motor](https://www.amazon.com/gp/product/B01N1JQFYX/)
 
-(continued below)
+(continued)
 
 
 * [0.3A glass fuse & holder](https://www.amazon.com/gp/product/B01FWR2R38/)
@@ -329,6 +379,8 @@ SpeakerNote: Add mouse + keyboard + monitor for a perfect kid desktop!
 
 # Thank you!
 
+* Source TODO
+* Slides <https://github.com/meonkeys/seagl2017-rpi-talk>
 * Blog <http://adammonsen.com>
 * Email <haircut@gmail.com>
 
