@@ -7,13 +7,19 @@ By [Adam Monsen](http://adammonsen.com), VP Engineering at [C-SATS, Inc.](https:
 
 
 
+## Note to self
+
+Use PgDn to advance through slides
+
+
+
 This is the story of four chickens
 
 
 <!-- .element: data-background-image="./img/four-chx.jpg" data-background-size="contain" -->
 
 
-Who meet one raccoon
+Who meet one hungry little furball
 
 
 <!-- .element: data-background-image="./img/800px-Waschbär4.jpg" data-background-size="contain" -->
@@ -39,6 +45,8 @@ Louise wants to live and wants a new flock.
 
 First she needs a safer home.
 
+One with an automatic door!
+
 
 
 <!-- .element: data-background-image="./img/whole-coop.jpg" data-background-size="contain" -->
@@ -53,9 +61,19 @@ First she needs a safer home.
 <!-- .element: data-background-image="./img/installed-rpi.jpg" data-background-size="contain" -->
 
 
+
+Louise likes the new coop but when it comes to the door she is...
+
+
 <!-- .element: data-background-image="./img/suspicious.jpg" -->
 
 # Suspicious!
+
+
+She'll get over it.
+
+
+Let's talk about chickens.
 
 
 
@@ -79,7 +97,7 @@ SpeakerNote: They also eat bugs and rocks.
 
 
 1. Food → Chicken → Egg
-1. Not smart
+1. Chicken not smart
 1. Must be locked in at night
 
 
@@ -97,7 +115,10 @@ Chickens get in the coop before dusk.
 They are pros at this.
 
 
-You need to lock it up at night
+_You_ need to lock up the coop at night
+
+
+_Every night_
 
 
 And open it in the morning
@@ -221,20 +242,66 @@ SpeakerNote: Regulated power supply: $6
 # Software
 
 
-1. [Install Raspian OS](https://www.raspberrypi.org/downloads/raspbian/)
-    * codename: "stretch" (with desktop)
-1. Try the camera: do a time-lapse video
-1. Try a project from the Starter Kit
-1. Use lots of emoji
+## Door control flow
 
-🐔 🚦 😓 ⏰ 🏁 🐣 🌇 📡 📷 🚧
+[![Door control flow diagram](./img/control-flow.svg)](./img/control-flow.svg)
+
+
+## TODO: add Slack screenshot
+
+
+## TODO: more about software here
+
+
+
+# FIXME - REDO THIS SECTION
+
+
+<!-- .element: data-background-video="./vid/door-open.webm" -->
+
+
+<!-- .element: data-background-video="./vid/settle-in.webm" data-background-size="contain" -->
+
+
+
+## More ideas
+
+* [Use Raspian OS](https://www.raspberrypi.org/downloads/raspbian/)
+    * codename: "stretch" (with desktop)
+* Try the camera: do a time-lapse video
+* Try a project from a Starter Kit (e.g. Adeept)
 
 SpeakerNote: Add mouse + keyboard + monitor for a perfect kid desktop!
 
 
-## Door control flow
+* Ask for help!
+* Try combining sensors / lights / camera
+* Use lots of emoji 🐔 🚦 😓 ⏰ 🏁 🐣 🌇 📡 📷 🚧
 
-[![Door control flow diagram](./img/control-flow.svg)](./img/control-flow.svg)
+
+
+## Lessons learned
+
+* If the Raspberry Pi won't boot, unplug all peripherals and try again. If USB ports are full, peripherals may draw too much power.
+* Get help, ask around. Call friends. Pair up. Find a local maker space.
+* I'm incredibly lucky to have a brilliant, patient partner who is great at woodwork and code review.
+
+(continued)
+
+
+* Use a 32GB flash card. I bricked a 64GB card.
+* Easy: camera. Plug & play!
+* Hard: door actuator: spindle, dealing with drag/resistance. Tight tolerance.
+    * Temperature and humidity affect (wooden) door operation.
+* Hard: 12V DC motor. L9110 controller is tricky to wire. Software is complex. Wasted time on [PWM](https://learn.sparkfun.com/tutorials/pulse-width-modulation).
+
+(continued)
+
+
+* Easy: magnetic (hall effect) sensor.
+* Hard: Adeept Python photoresistor code didn't work, but C code did.
+* Easy: posting messages to IRC or Slack.
+* Early mistake: motion alerts for all chicken movement.
 
 
 
@@ -260,7 +327,7 @@ SpeakerNote: Add mouse + keyboard + monitor for a perfect kid desktop!
 
 # Thank you!
 
-* Visit <http://adammonsen.com>
+* Blog <http://adammonsen.com>
 * Email <haircut@gmail.com>
 
 SpeakerNote: I want to hear what works for you or what I could do better.
