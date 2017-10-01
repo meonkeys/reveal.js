@@ -115,7 +115,7 @@ Chickens get in the coop before dusk.
 They are pros at this.
 
 
-_You_ need to lock up the coop at night
+All you need to do is lock up the coop at night
 
 
 _Every night_
@@ -126,13 +126,13 @@ And open it in the morning
 SpeakerNote: so they can free range and stuff
 
 
-(and keep them safe during the day)
-
-SpeakerNote: nocturnal predators may also hunt during the day, and there are other daytime predators too
+_Every morning_
 
 
+_even in the summer when that sun comes up really early and the chickens really really wanna get out at the buttcrack of dawn_
 
-So, let's build some stuff!
+
+Yeah no. Let's automate it!
 
 
 # TL;DR 🐔
@@ -302,6 +302,8 @@ SpeakerNote: Add mouse + keyboard + monitor for a perfect kid desktop!
 * Hard: Adeept Python photoresistor code didn't work, but C code did.
 * Easy: posting messages to IRC or Slack.
 * Early mistake: motion alerts for all chicken movement.
+* [Adeept source is on GitHub](https://github.com/adeept/)
+* Nocturnal predators may also hunt during the day, and there are other daytime predators too.
 
 
 
