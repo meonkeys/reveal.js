@@ -379,7 +379,7 @@ SpeakerNote: Add mouse + keyboard + monitor for a perfect kid desktop!
 
 # Thank you!
 
-* Source TODO
+* Source <https://github.com/meonkeys/rpi-chx-code>
 * Slides <https://github.com/meonkeys/seagl2017-rpi-talk>
 * Blog <http://adammonsen.com>
 * Email <haircut@gmail.com>
