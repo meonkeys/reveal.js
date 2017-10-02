@@ -49,7 +49,9 @@ This is the story of...
 
 ## Meet Louise
 
-Our stealthy [Ameraucana](https://en.wikipedia.org/wiki/Ameraucana)
+Our stealthy Ameraucana
+
+SpeakerNote: https://en.wikipedia.org/wiki/Ameraucana
 
 
 Louise wants to live and wants a new flock.
@@ -75,8 +77,10 @@ What's our dream door have?
 * C + bash + python polyglot control code with standardized output convention
 * offline operation with 2.4Ghz wifi for monitoring and maintenance
 
+SpeakerNote: Really we just wanted a door that would automatically open and close with the sun.
 
-Sure, why not.
+
+Heck yes!
 
 
 <!-- .element: data-background-video="./vid/door-open.webm" -->
@@ -309,37 +313,40 @@ SpeakerNote: Regulated power supply: $6
 
 * [Use Raspian OS](https://www.raspberrypi.org/downloads/raspbian/)
     * codename: "stretch" (with desktop)
-* Try the camera: do a time-lapse video
+* Try the camera: do a time-lapse video 🎥
 * Try a project from a Starter Kit (e.g. Adeept)
 
 SpeakerNote: Add mouse + keyboard + monitor for a perfect kid desktop!
 
 
-* Ask for help!
-* Try combining sensors / lights / camera
-* Use lots of emoji 🐔 📊 🚪 🚦 😓 ⏰ 🏁 🐣 🌇 📡 📷 🚧
+* Ask for help! 💭
+* Try combining sensors / lights / camera 📷
+* Use lots of emoji
+    * 🐔 📊 🚪 🚦 😓 ⏰ 🏁 🐣 🌇 📡 📷 🚧
     * seriously
-    * one per unique log event
+    * one per unique log event 🌲
 
 
 
 ## Lessons learned
 
-* If the Raspberry Pi won't boot, unplug all peripherals and try again. If USB ports are full, peripherals may draw too much power.
-* Get help, ask around. Call friends. Pair up. Find a local maker space.
-* I'm incredibly lucky to have a brilliant, patient partner who is great at woodwork and code review.
+* If the Raspberry Pi won't boot, unplug all peripherals and try again. If USB ports are full, peripherals may draw too much power. 🗲
+* Get help, ask around. Call friends. Pair up. Find a local maker space. 🛠
+* I'm incredibly lucky to have a brilliant, patient partner who is great at woodwork and code. 👩
 
 (continued)
 
 
 * Use a 32GB flash card. I bricked a 64GB card.
-* Easy: camera. Plug & play!
+* Easy: camera. Plug & play! 🔌
 * Easy: loose tolerance for software (slow door, 10min between light checks).
 * Hard: door actuator: spindle, dealing with drag/resistance. Tight tolerance.
     * Temperature and humidity affect (wooden) door operation.
 * Hard: 12V DC motor. L9110 controller is tricky to wire. Software is complex. Wasted time on [PWM](https://learn.sparkfun.com/tutorials/pulse-width-modulation).
 
 (continued)
+
+SpeakerNote: PWM - Pulse Width Modulation. Use fluttering gas pedal analogy.
 
 
 * Easy: magnetic (hall effect) sensor.
@@ -352,7 +359,7 @@ SpeakerNote: Add mouse + keyboard + monitor for a perfect kid desktop!
 (continued)
 
 
-* Saw the effect of the near-total eclipse.
+* Saw the effect of the near-total eclipse. 🌑
 * Always MVP and iterate.
 
 
