@@ -7,7 +7,7 @@ By [Adam Monsen](http://adammonsen.com), VP Engineering at [C-SATS, Inc.](https:
 
 
 
-Use PgDn to advance through slides
+Use space bar or PgDn to advance through slides
 
 
 
@@ -30,10 +30,12 @@ This is the story of four chickens
 <!-- .element: data-background-image="./img/four-chx.jpg" data-background-size="contain" -->
 
 
-Who meet one hungry little furball
+Who meet a hungry little furball
 
 
 <!-- .element: data-background-image="./img/800px-Waschbär4.jpg" data-background-size="contain" -->
+
+SpeakerNote: Photo credit Tobias Mercer. Licensed GFDL, CC-by-2.5. [Source](https://commons.wikimedia.org/wiki/File:Waschb%C3%A4r4.jpg)
 
 
 And quickly become a flock of one.
@@ -49,9 +51,9 @@ This is the story of...
 
 ## Meet Louise
 
-Our stealthy Ameraucana
+Our stealthy Ameraucana <!-- .element: style="text-shadow: 2px 2px 4px rgba(190,190,190,1.0);" -->
 
-SpeakerNote: https://en.wikipedia.org/wiki/Ameraucana
+SpeakerNote: <https://en.wikipedia.org/wiki/Ameraucana>
 
 
 Louise wants to live and wants a new flock.
@@ -62,7 +64,7 @@ One with an automatic door!
 
 
 
-What's our dream door have?
+Dream big. We need:
 
 
 <!-- .element: style="font-size: smaller;" -->
@@ -77,13 +79,13 @@ What's our dream door have?
 * C + bash + python polyglot control code with standardized output convention
 * offline operation with 2.4Ghz wifi for monitoring and maintenance
 
-SpeakerNote: Really we just wanted a door that would automatically open and close with the sun.
+
+Or at least a door that automatically opens and closes with the sun.
 
 
-Heck yes!
+<!-- .element: data-background-image="./img/463px-We_Can_Do_It.jpg" data-background-size="contain" -->
 
-
-<!-- .element: data-background-video="./vid/door-open.webm" -->
+SpeakerNote: Public domain. [Source](https://commons.wikimedia.org/wiki/File:We_Can_Do_It!.jpg)
 
 
 <!-- .element: data-background-image="./img/whole-coop.jpg" data-background-size="contain" -->
@@ -96,6 +98,9 @@ Heck yes!
 
 
 <!-- .element: data-background-image="./img/installed-rpi.jpg" data-background-size="contain" -->
+
+
+<!-- .element: data-background-video="./vid/door-open.webm" -->
 
 
 <!-- .element: data-background-video="./vid/settle-in.webm" data-background-size="contain" -->
@@ -147,7 +152,7 @@ SpeakerNote: They also eat bugs and rocks.
 
 <!-- .element: data-background-image="./img/800px-Waschbär4.jpg" data-background-size="contain" -->
 
-SpeakerNote: Photo credit Tobias Mercer. Licensed GFDL, CC-by-2.5. Source: https://commons.wikimedia.org/wiki/File:Waschb%C3%A4r4.jpg
+SpeakerNote: Photo credit Tobias Mercer. Licensed GFDL, CC-by-2.5. [Source](https://commons.wikimedia.org/wiki/File:Waschb%C3%A4r4.jpg)
 
 
 Chickens get in the coop before dusk.
@@ -391,5 +396,4 @@ SpeakerNote: PWM - Pulse Width Modulation. Use fluttering gas pedal analogy.
 * Blog <http://adammonsen.com>
 * Email <haircut@gmail.com>
 
-SpeakerNote: I want to hear what works for you or what I could do better.
-Please let me know!
+SpeakerNote: I want to hear what works for you or what I could do better. Please let me know!
