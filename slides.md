@@ -58,7 +58,7 @@ SpeakerNote: <https://en.wikipedia.org/wiki/Ameraucana>
 
 Louise wants to live and wants a new flock.
 
-First she needs a safer home.
+First she needs a safer home. 🏠
 
 One with an automatic door!
 
@@ -80,7 +80,7 @@ We need:
 * offline operation with 2.4Ghz wifi for monitoring and maintenance
 
 
-Or at least a door that automatically opens and closes with the sun.
+Or at least a door that automatically opens and closes with the sun. ☀
 
 
 <!-- .element: data-background-image="./img/463px-We_Can_Do_It.jpg" data-background-size="contain" -->
@@ -317,9 +317,27 @@ SpeakerNote: Regulated power supply: $6
 
 
 
+## Starter kit
+
+🚵 Easy, fun
+
+📖 Beginner-friendly manual with 13 projects
+
+✔ Background info, diagrams, photos, code
+
+📧 Email support
+
+
+Helps you bridge the gap where hardware meets software.
+
+
+<!-- .element: data-background-image="./img/led-blink-wiring-diagram.png" data-background-size="contain" -->
+
+
+
 ## More ideas
 
-* [Use Raspian OS](https://www.raspberrypi.org/downloads/raspbian/)
+* [Use Raspian OS](https://www.raspberrypi.org/downloads/raspbian/) 🐧
     * codename: "stretch" (with desktop)
 * Try the camera: do a time-lapse video 🎥
 * Try a project from a Starter Kit (e.g. Adeept)
@@ -348,8 +366,8 @@ SpeakerNote: Add mouse + keyboard + monitor for a perfect kid desktop!
 * Use a 32GB flash card. I bricked a 64GB card.
 * Easy: camera. Plug & play! 🔌
 * Easy: loose tolerance for software (slow door, 10min between light checks).
-* Hard: door actuator: spindle, dealing with drag/resistance. Tight tolerance.
-    * Temperature and humidity affect (wooden) door operation.
+* Hard: door actuator: spindle, dealing with drag/resistance. Tight tolerance. 🚪
+    * Temperature and humidity affect (wooden) door operation. 📊
 * Hard: 12V DC motor. L9110 controller is tricky to wire. Software is complex. Wasted time on [PWM](https://learn.sparkfun.com/tutorials/pulse-width-modulation).
 
 (continued)
@@ -360,9 +378,9 @@ SpeakerNote: PWM - Pulse Width Modulation. Use fluttering gas pedal analogy.
 * Easy: magnetic (hall effect) sensor.
 * Hard: Adeept Python photoresistor code didn't work, but C code did.
 * Easy: posting messages to IRC or Slack.
-* Early mistake: motion alerts for all chicken movement.
+* Early mistake: motion alerts for all chicken movement. 🐔
 * [Adeept source is on GitHub](https://github.com/adeept/)
-* Nocturnal predators may also hunt during the day, and there are other daytime predators too.
+* Nocturnal predators may also hunt during the day, and there are other daytime predators too. 🐕
 
 (continued)
 
