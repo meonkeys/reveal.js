@@ -64,7 +64,7 @@ One with an automatic door!
 
 
 
-Dream big. We need:
+We need:
 
 
 <!-- .element: style="font-size: smaller;" -->
@@ -91,16 +91,19 @@ SpeakerNote: Public domain. [Source](https://commons.wikimedia.org/wiki/File:We_
 <!-- .element: data-background-image="./img/whole-coop.jpg" data-background-size="contain" -->
 
 
-<!-- .element: data-background-image="./img/door-closed.jpg" data-background-size="contain" -->
-
-
 <!-- .element: data-background-image="./img/door-open.jpg" data-background-size="contain" -->
+
+
+<!-- .element: data-background-image="./img/door-closed.jpg" data-background-size="contain" -->
 
 
 <!-- .element: data-background-image="./img/installed-rpi.jpg" data-background-size="contain" -->
 
 
-<!-- .element: data-background-video="./vid/door-open.webm" -->
+<!-- .element: data-background-video="./vid/unlock.webm" data-background-video-loop="true" -->
+
+
+<!-- .element: data-background-video="./vid/door-open.webm" data-background-video-loop="true" -->
 
 
 <!-- .element: data-background-video="./vid/settle-in.webm" data-background-size="contain" -->
