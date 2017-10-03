@@ -232,12 +232,12 @@ SpeakerNote: Minus tax and shipping/handling. See last slide for links.
 
 
 
-<!-- .element: data-background-image="./img/pi-in-case.jpg" data-background-size="contain" -->
+<!-- .element: data-background-image="./img/rpi-3-diagram.jpg" data-background-size="contain" -->
 
 SpeakerNote: Raspberry Pi w/case by Vilros: $50
 
 
-<!-- .element: data-background-image="./img/rpi-3-diagram.jpg" data-background-size="contain" -->
+<!-- .element: data-background-image="./img/pi-in-case.jpg" data-background-size="contain" -->
 
 SpeakerNote: Raspberry Pi w/case by Vilros: $50
 
