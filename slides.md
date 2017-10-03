@@ -7,7 +7,9 @@ By [Adam Monsen](http://adammonsen.com), VP Engineering at [C-SATS, Inc.](https:
 
 
 
-Use space bar or PgDn to advance through slides
+Use space bar or PgDn to advance through slides.
+
+Mobile? Swipe or touch arrow controls in the lower right.
 
 
 
