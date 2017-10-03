@@ -380,7 +380,7 @@ SpeakerNote: Add mouse + keyboard + monitor for a perfect kid desktop!
 SpeakerNote: PWM - Pulse Width Modulation. Use fluttering gas pedal analogy.
 
 
-* Easy: magnetic (hall effect) sensor.
+* Easy: magnetic (hall effect) sensor. 👍
 * Hard: Adeept Python photoresistor code didn't work, but C code did.
 * Easy: posting messages to IRC or Slack.
 * Early mistake: motion alerts for all chicken movement. 🐔
@@ -391,7 +391,7 @@ SpeakerNote: PWM - Pulse Width Modulation. Use fluttering gas pedal analogy.
 
 
 * Saw the effect of the near-total eclipse. 🌑
-* Always MVP and iterate.
+* Always MVP and iterate. ✨
 
 
 
