@@ -356,7 +356,7 @@ SpeakerNote: Add mouse + keyboard + monitor for a perfect kid desktop!
 
 ## Lessons learned
 
-* If the Raspberry Pi won't boot, unplug all peripherals and try again. If USB ports are full, peripherals may draw too much power. 🗲
+* If the Raspberry Pi won't boot, unplug all peripherals and try again. If USB ports are full, peripherals may draw too much power. 🔋
 * Get help, ask around. Call friends. Pair up. Find a local maker space. 🛠
 * I'm incredibly lucky to have a brilliant, patient partner who is great at woodwork and code. 👩
 
