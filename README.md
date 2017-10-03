@@ -4,6 +4,8 @@ Slides for a talk about an automated chicken door controlled by a Raspberri Pi. 
 
 Hit <kbd>s</kbd> to show [speaker notes](https://github.com/hakimel/reveal.js#speaker-notes).
 
+Videos made with [Pitivi](http://www.pitivi.org/) (trim, remove audio) and [ffmpeg](https://ffmpeg.org/) (convert to [WebM](https://en.wikipedia.org/wiki/WebM)).
+
 ## Links
 
 * [Source code for this talk](https://github.com/meonkeys/seagl2017-rpi-talk).

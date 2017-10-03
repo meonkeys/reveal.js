@@ -111,6 +111,9 @@ SpeakerNote: Public domain. [Source](https://commons.wikimedia.org/wiki/File:We_
 <!-- .element: data-background-video="./vid/settle-in.webm" data-background-size="contain" -->
 
 
+<!-- .element: data-background-video="./vid/intruder.webm" data-background-size="contain" -->
+
+
 
 Louise likes the new coop but when it comes to the door she is...
 
