@@ -318,7 +318,7 @@ SpeakerNote: Regulated power supply: $6
 
 # Log
 
-![Log](./img/log.png)
+[![Log](./img/log.png)](./img/log.png)
 
 
 
@@ -351,7 +351,7 @@ SpeakerNote: Add mouse + keyboard + monitor for a perfect kid desktop!
 
 
 * Ask for help! 💭
-* Try combining sensors / lights / camera 📷
+* Try combining sensors / lights / camera
 * Use lots of emoji
     * 🐔 📊 🚪 🚦 😓 ⏰ 🏁 🐣 🌇 📡 📷 🚧
     * seriously
