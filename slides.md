@@ -316,9 +316,21 @@ SpeakerNote: Regulated power supply: $6
 * "lock" enforces atomic opening/closing
 
 
-# Log
+# Logmoji
+
 
 [![Log](./img/log.png)](./img/log.png)
+
+```
+18:20 📊 Light level 120, door is open.
+18:30 📊 Light level 106, door is open.
+18:40 📊 Light level 64, door is open.
+18:50 📊 Light level 16, door is open.
+19:00 📊 Light level -30, door is open.
+19:00 🌇 Dusk/nighttime detected and door state open. Closing door.
+19:00 🚪 Will close door now.
+19:00 🏁 Hit mag sensor after 13.2679080963 seconds
+```
 
 
 
