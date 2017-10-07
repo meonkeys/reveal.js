@@ -11,7 +11,7 @@ Videos made with [Pitivi](http://www.pitivi.org/) (trim, remove audio) and [ffmp
 * [Source code for this talk](https://github.com/meonkeys/seagl2017-rpi-talk).
 * [Rendered slideshow](http://meonkeys.github.io/seagl2017-rpi-talk/).
 * [Talk details](https://osem.seagl.org/conferences/seagl2017/program/proposals/290)
-* [TODO: Follow-up blog post](http://adammonsen.com)
+* [Follow-up blog post](http://adammonsen.com/post/1425)
 
 # Copyright and license
 
